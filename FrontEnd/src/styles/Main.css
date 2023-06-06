@@ -1,0 +1,31 @@
+nav.categories {
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.doc {
+    display: flex;
+    border: solid 2px rgb(47, 57, 255);
+    background-color: rgb(255, 60, 0);
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(10, 228, 217);
+    border: 1px solid rgb(5, 117, 148);
+    padding: 1px 10px;
+    border-radius: 45%;
+    box-shadow: 1px 4px rgb(5, 117, 148);
+    color: aliceblue;
+
+}
+
+a:hover {
+    border-radius: 50%;
+    box-shadow: 2px 6px rgb(2, 66, 83);
+    color: brown;
+}
